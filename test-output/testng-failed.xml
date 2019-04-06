@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.org.pune.MavenSelenium3.GridClass">
+      <class name="com.org.pune.MavenSelenium3.Orange">
         <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="sign"/>
+          <include name="method"/>
+          <include name="signUp_function"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.org.pune.MavenSelenium3.GridClass -->
+      </class> <!-- com.org.pune.MavenSelenium3.Orange -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
